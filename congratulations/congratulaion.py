@@ -1,0 +1,5 @@
+name=input("enter your name:")
+event=input('enter your accomplishment:')
+goal=input('enter your goal:')
+print("\nhello", name, "\ncongratualtions on", event, name)
+print("\nIm sure that you are very proud of urslef, and i hope you find sucess in", goal)
