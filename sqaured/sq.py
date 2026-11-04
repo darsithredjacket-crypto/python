@@ -1,0 +1,15 @@
+start=int(input("Enter starting number:"))
+end=int(input("Enter ending number:"))
+squares=[]
+odd=[]
+even=[]
+for i in range(start,end+1):
+    square=i**2
+    squares.append(square)
+    if square%2==0:
+        even.append(square)
+    else:
+        odd.append(square)
+    print("squares=", squares)
+    print("\neven squares=", even)
+    print("\nodd squares=", odd)
